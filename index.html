@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/adjustments.css" rel="stylesheet">
+		<title>Siobhan Hokin Online Portfolio</title>
+	</head>
+	<body>
+		<section class="container">
+			<header class="row">
+				<section class="logo col-md-6">
+					<img class= "logo-img" src="images/sh.svg" alt="logo">
+				</section>
+				<section class="name col-md-6 text-right">
+					<h1 class="heading">
+						siobhan hokin
+					</h1>
+					<h2 class="sub-heading">
+						Full Stack Fanatic
+					</h2>
+				</section>
+			</header>
+
+			<main>
+				<section class="hero-image row">
+					<section class="col-md-12">
+						<picture>
+							<source media="(min-width:700px)" srcset="images/lovely.jpg">
+							<source media="(min-width:400px)" srcset="images/lovely-800w.jpg 1x, images/lovely-1600w.jpg 2x">
+							<source media="(max-width:400px)" srcset="images/lovely-400w.jpg 1x, images/lovely-800w.jpg 2x">
+							<img src="images/lovely-400w.jpg" class="img-responsive" alt="Background: some sort of dark industrial grungy picture with lines of lights up one side.">
+						</picture>
+						<p class="about-text">
+							Siobhan’s <span class="yellow">passion <br>
+							for programming</span ><br>
+							drives her to study <br>
+							web development <br>
+							with an <span class="yellow">intense<br>
+							focus</span>
+					 	</p>
+						<p class="about-text-smaller">
+							Although there is a long path
+							ahead of her, she has already
+							made a great deal of progress
+							along her journey
+						</p>
+						<ul class="knowledge-list">
+							<li class="knowledge-list-item">JavaScript</li>
+							<li class="knowledge-list-item">jQuery</li>
+							<li class="knowledge-list-item">Python</li>
+							<li class="knowledge-list-item">Object Oriented Programming</li>
+							<li class="knowledge-list-item">HTML5 and CSS3</li>
+							<li class="knowledge-list-item">Responsive Design</li>
+							<li class="knowledge-list-item">Bootstrap</li>
+							<li class="knowledge-list-item">Git</li>
+						</ul>
+					</section>
+				</section>
+				<section class="featured-work row text-center">
+					<h3 class="featured-header text-left col-md-12">Featured Work
+					</h3>
+
+					<section class="a-feature col-md-4">
+						<picture>
+							<source media="(min-width: 579px) and (max-width: 992px)" srcset="images/6stats-974w.jpg">
+							<img src="images/6stats-579w.jpg" class="img-responsive" alt="6stats character generator logo or example">
+						</picture>
+						<h4 class="project-name">
+							6stats Character Generator
+						</h4>
+						<p class="text-left ">
+							<strong>6stats</strong> is a for-fun project which generates a random D&D character. It was made with JavaScript when I had no idea about best practice.
+						</p>
+						<p class="text-left ">
+							Future updates include refactoring and a digitally-painted portrait generator.
+						</p>
+						<a href="http://siobhanhokin.com/miniprojects/statGen/6stats.html">link to project</a>
+					</section>
+					<section class="a-feature col-md-4 text-center">
+						<picture>
+						<source media="(max-width:374px)" srcset="images/saga-374w.jpg">
+						<source media="(max-width:661px)" srcset="images/saga-661w.jpg">
+						<source media="(max-width:779px)" srcset="images/saga-799w.jpg">
+						<source media="(max-width:992px)" srcset="images/saga-917w.jpg">
+						<img src="images/saga-374w.jpg" class="img-responsive feature-image" alt="saga logo or example">
+						</picture>
+						<h4 class="project-name">Saga - a blogging platform
+						</h4>
+						<p class="text-left">
+							<strong>Saga</strong> is a blogging platform deployed with Google App Engine and built primarily with Python. The user pages are dynamically generated with data from the Google Datastore database, which is requested via GQL, a variant of SQL.
+						</p>
+						<p class="text-left">
+							This is then entered into a Jinja2 HTML template, which accesses CSS and JavaScript static files. User Authentication is fully functional, although not yet secured by SSL.
+						</p>
+
+						<a href="http://www.saga-blog.appspot.com">link to project</a>
+					</section>
+					<section class="a-feature col-md-4">
+						<picture>
+							<source media="(min-width:412px)" srcset="images/palette-660.jpg">
+							<img src="images/palette-412w.jpg" class="img-responsive" alt="palette generator UI">
+						</picture>
+						<h4 class="project-name">
+							Palette Generator
+						</h4>
+						<p class="text-left">
+							This palette generator implements a random-color algorithm in Javascript to let creatives experiment with a wider variety of color palettes.
+						</p>
+						<a href="http://siobhanhokin.com/miniprojects/paletteGenerator.html">link to project</a>
+					</section>
+				</section>
+			</main>
+		</section>
+	</body>
+</html>
